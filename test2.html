@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!---knockout.js cdn link-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min.js"></script> 
+    <title>Knockout Observables</title>
+</head>
+<body>
+    <!--first view-->
+    FirstName: <input type="text" data-bind="value:ViewModelPerson.firstname">
+    LastName: <input type="text" data-bind="value:ViewModelPerson.lastname">
+
+<div data-bind="text:ViewModelPerson.firstname"></div>
+<div data-bind="text:ViewModelPerson.lastname"></div>
+    <script src="test2.js"></script>
+</body>
+</html>
